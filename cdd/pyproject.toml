@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mcti-poetry"
+version = "0.1.0"
+description = "guess I'm learning how to setup poetry now"
+authors = ["Rafael Braga <felbraga97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
